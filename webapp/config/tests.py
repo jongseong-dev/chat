@@ -13,6 +13,6 @@ class TestWebApp(TestCase):
         self.factory = RequestFactory()
 
     def test_healthcheck(self):
-        url = '/health/'
+        url = "/health/"
         response = self.client.get(url)
         response.status_code = 200
