@@ -1,0 +1,82 @@
+<TaskOptions>
+  <TaskOptions>
+    <option name="arguments" value="$FilePath$ --ignore=E402,F841,F401,E302,E305 --exclude=$ContentRoot$/**/config/**" />
+    <option name="checkSyntaxErrors" value="true" />
+    <option name="description" />
+    <option name="exitCodeBehavior" value="ERROR" />
+    <option name="fileExtension" value="py" />
+    <option name="immediateSync" value="false" />
+    <option name="name" value="flake8" />
+    <option name="output" value="" />
+    <option name="outputFilters">
+      <array />
+    </option>
+    <option name="outputFromStdout" value="false" />
+    <option name="program" value="$PyInterpreterDirectory$/flake8" />
+    <option name="runOnExternalChanges" value="false" />
+    <option name="scopeName" value="Current File" />
+    <option name="trackOnlyRoot" value="false" />
+    <option name="workingDir" value="$ContentRoot$" />
+    <envs />
+  </TaskOptions>
+  <TaskOptions>
+    <option name="arguments" value="$FilePath$" />
+    <option name="checkSyntaxErrors" value="true" />
+    <option name="description" />
+    <option name="exitCodeBehavior" value="ERROR" />
+    <option name="fileExtension" value="py" />
+    <option name="immediateSync" value="true" />
+    <option name="name" value="pyright" />
+    <option name="output" value="" />
+    <option name="outputFilters">
+      <array />
+    </option>
+    <option name="outputFromStdout" value="false" />
+    <option name="program" value="$PyInterpreterDirectory$/pyright" />
+    <option name="runOnExternalChanges" value="false" />
+    <option name="scopeName" value="Current File" />
+    <option name="trackOnlyRoot" value="false" />
+    <option name="workingDir" value="$ContentRoot$" />
+    <envs />
+  </TaskOptions>
+  <TaskOptions>
+    <option name="arguments" value="$FilePath$" />
+    <option name="checkSyntaxErrors" value="true" />
+    <option name="description" />
+    <option name="exitCodeBehavior" value="ERROR" />
+    <option name="fileExtension" value="py" />
+    <option name="immediateSync" value="false" />
+    <option name="name" value="reorder-python-imports" />
+    <option name="output" value="" />
+    <option name="outputFilters">
+      <array />
+    </option>
+    <option name="outputFromStdout" value="false" />
+    <option name="program" value="$PyInterpreterDirectory$/reorder-python-imports" />
+    <option name="runOnExternalChanges" value="false" />
+    <option name="scopeName" value="Current File" />
+    <option name="trackOnlyRoot" value="false" />
+    <option name="workingDir" value="$ContentRoot$" />
+    <envs />
+  </TaskOptions>
+  <TaskOptions>
+    <option name="arguments" value="$FilePath$ --line-length=79 -t py38 -t py39 -t py310 -t py311" />
+    <option name="checkSyntaxErrors" value="true" />
+    <option name="description" />
+    <option name="exitCodeBehavior" value="ERROR" />
+    <option name="fileExtension" value="py" />
+    <option name="immediateSync" value="false" />
+    <option name="name" value="black" />
+    <option name="output" value="" />
+    <option name="outputFilters">
+      <array />
+    </option>
+    <option name="outputFromStdout" value="false" />
+    <option name="program" value="$PyInterpreterDirectory$/black" />
+    <option name="runOnExternalChanges" value="false" />
+    <option name="scopeName" value="Current File" />
+    <option name="trackOnlyRoot" value="false" />
+    <option name="workingDir" value="$ContentRoot$" />
+    <envs />
+  </TaskOptions>
+</TaskOptions>
