@@ -28,6 +28,7 @@ urlpatterns = [
     path("api-auth/", include("rest_framework.urls")),
     path("admin/", admin.site.urls),
     path("health/", health_check, name="health_check"),
+    path("chat/", include("chat.urls")),
 ]
 
 if settings.DEBUG:
