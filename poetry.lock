@@ -899,13 +899,13 @@ test = ["pretend", "pytest (>=3.0.1)", "pytest-rerunfailures"]
 
 [[package]]
 name = "pyright"
-version = "1.1.359"
+version = "1.1.369"
 description = "Command line wrapper for pyright"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "pyright-1.1.359-py3-none-any.whl", hash = "sha256:5582777be7eab73512277ac7da7b41e15bc0737f488629cb9babd96e0769be61"},
-    {file = "pyright-1.1.359.tar.gz", hash = "sha256:f0eab50f3dafce8a7302caeafd6a733f39901a2bf5170bb23d77fd607c8a8dbc"},
+    {file = "pyright-1.1.369-py3-none-any.whl", hash = "sha256:06d5167a8d7be62523ced0265c5d2f1e022e110caf57a25d92f50fb2d07bcda0"},
+    {file = "pyright-1.1.369.tar.gz", hash = "sha256:ad290710072d021e213b98cc7a2f90ae3a48609ef5b978f749346d1a47eb9af8"},
 ]
 
 [package.dependencies]
@@ -1352,4 +1352,4 @@ testing = ["coverage (>=5.0.3)", "zope.event", "zope.testing"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "ff14935e2c09002d731fb739cd74be6e86a9239f4c51311d217ad38ad8c94f44"
+content-hash = "bb7f04e8f56a586fab3fe8a28ac4f4f9b25e9a57f26032b995738cb216da3533"
